@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrea Duran</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+  <div class="mt-1 container">
+    <a class="navbar-brand mx-auto" href="#">
+      <img src="img/LACKA LATINO.png" alt="lackadaisy" style="height:48px; width:auto;" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="menuNav">
+      <ul class="navbar-nav sm-2 sm-lg-0">
+        <li class="nav-item"><a class="nav-link text-center" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link text-center" href="#galeria">Personajes</a></li>
+         <li class="nav-item"><a class="nav-link text-center" href="#informacion">Información</a></li>
+         <li class="nav-item"><a class="nav-link text-center" href="#team">Marigold</a></li>
+         <li class="nav-item"><a class="nav-link text-center" href="#teamdos">Lackadaisy</a></li>
+        <li class="nav-item"><a class="nav-link text-center" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CAROUSEL -->
+<section id="inicio" class="mt-4">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1.png" class="d-block w-100" alt="imagen1">
+      </div>
+      <div class="carousel-item">
+        <img src="img/2.png" class="d-block w-100" alt="imagen2">
+      </div>
+      <div class="carousel-item">
+        <img src="img/LACKADAISY.gif" class="d-block w-100" alt="imagen3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<!-- INFORMACIÓN -->
+<section id="informacion" class="container mt-5">
+  <div class="row justify-content-center align-items-center">
+    <!-- Imagen a la izquierda -->
+    <div class="col-md-5 text-center mb-3 mb-md-0">
+      <img src="img/poster.jpg" alt="poster" class="img-fluid rounded" style="max-width: 400px;">
+    </div>
+    <!-- Texto y título a la derecha, dentro de un cuadro blanco con borde redondo -->
+    <div class="col-md-7">
+      <div class="bg-dark rounded-4 shadow p-4 h-100">
+        <h2 class="mb-4 text-white text-center">INFORMACIÓN</h2>
+        <p class="text-white mb-2">
+          <strong>Lackadaisy</strong> es una serie de cómics creada por Tracy Butler, ambientada en la década de 1920 en St. Louis, Missouri. La historia sigue a un grupo de gatos antropomórficos que operan un speakeasy llamado Lackadaisy, mientras navegan por el peligroso mundo del contrabando de alcohol durante la Prohibición.
+        </p>
+        <p class="text-white mb-0">
+          La serie combina elementos de acción, comedia y drama, con un estilo artístico distintivo y personajes entrañables. A través de sus aventuras, los personajes enfrentan desafíos personales y conflictos con otras pandillas, todo mientras intentan mantener su negocio a flote.
+        </p>
+        <p class="text-white mt-3 mb-0">
+          Cuando la prohibición se apodera de los Estados Unidos en 1920, Atlas May establece su restaurante, el Little Daisy Café, como fachada de un exitoso bar clandestino llamado Lackadaisy, en la ciudad de San Luis. Situado en la desembocadura de una red de cuevas de piedra caliza, al bar clandestino sólo se puede acceder desde el Café aquellos que muestren un alfiler en forma de palo de tréboles.
+          Con fácil acceso al alcohol ilegal y una clientela estable, el negocio florece y Lackadaisy se convierte en un establecimiento de primer nivel.  (<a href= "https://es.wikipedia.org/wiki/Lackadaisy"target="_blank">Mas Info</a>)
+        </p>
+        <p class="text-white mt-3 mb-0">
+          La serie ha ganado una gran base de fans y ha sido adaptada a un cortometraje animado, lo que demuestra su popularidad y el impacto que ha tenido en la comunidad de cómics independientes. Ganó múltiples premios Web Cartoonists' Choice Awards en 2007 y 2008, y en abril de 2011 fue nominada al premio Eisner al "Mejor cómic digital".
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CARDS -->
+<section id="galeria" class="container mt-5">
+  <h2 class="text-center mb-4">PERSONAJES</h2>
+
+  <div id="personajesCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active px-lg-5 px-3">
+        <div class="row g-4 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="custom-card text-center">
+              <img src="img/1carta.png" alt="Gato 1">
+              <h5>Rocky Rickaby</h5>
+              <p class="text-muted mb-1">¡Nueva!</p>
+              <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal1">Ver más</button>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="custom-card text-center">
+              <img src="img/7carta.png" alt="Gato 2">
+              <h5>Nico Savoy</h5>
+              <p class="text-muted mb-1">hola si</p>
+              <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal2">Ver más</button>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="custom-card text-center">
+              <img src="img/3carta.png" alt="Gato 3">
+              <h5>Calvin (Freckle)</h5>
+              <p class="text-muted mb-1">¡Nueva!</p>
+              <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal3">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item px-lg-5 px-3">
+        <div class="row g-4 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="custom-card text-center">
+              <img src="img/4carta.png" alt="Gato 4">
+              <h5>Mordecai Heller</h5>
+              <p class="text-muted mb-1">¡Nueva!</p>
+              <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal4">Ver más</button>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="custom-card text-center">
+              <img src="img/5carta.png" alt="Gato 5">
+              <h5>Ivy Pepper</h5>
+              <p class="text-muted mb-1">¡Nueva!</p>
+              <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal5">Ver más</button>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="custom-card text-center">
+              <img src="img/6carta.png" alt="Gato 6">
+              <h5>Serafine Savoy</h5>
+              <p class="text-muted mb-1">¡Nueva!</p>
+              <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal6">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item px-lg-5 px-3">
+        <div class="row g-4 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="custom-card text-center">
+              <img src="img/2carta.png" alt="Gato 7">
+              <h5>Mitzy May</h5>
+              <p class="text-muted mb-1">¡Nueva!</p>
+              <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal7">Ver más</button>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="custom-card text-center">
+              <img src="img/8carta.png" alt="Gato 8">
+              <h5>Sedgewick Sable</h5>
+              <p class="text-muted mb-1">¡Nueva!</p>
+              <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal8">Ver más</button>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="custom-card text-center">
+              <img src="img/9carta.png" alt="Gato 9">
+              <h5>Zib Zibowski</h5>
+              <p class="text-muted mb-1">¡Nueva!</p>
+              <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal9">Ver más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#personajesCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#personajesCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</section>
+
+
+<!-- MODALS -->
+
+<div class="modal fade" id="modal1" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-4">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <img src="img/1carta.png" alt="Tarjeta 1" class="img-fluid rounded">
+          </div>
+          <div class="col-md-7">
+            <h2>Roark “Rocky” Rickaby</h2>
+            <p><strong>Alias:</strong> Rocky</p>
+            <p><strong>Nacionalidad:</strong> Estadounidense (de ascendencia irlandesa)</p>
+            <p><strong>Fecha de nacimiento:</strong> 19 de diciembre de 1904 - St. Louis, Missouri</p>
+            <p><strong>Edad (1927):</strong> 22 años</p>
+            <p><strong>Altura:</strong> Aproximadamente 1,68 m (5’6″)</p>
+            <p><strong>Ojos:</strong> Azul (esclera azul sin iris visible)</p>
+            <p><strong>Pelo/Pelaje:</strong> Gris y beige con rayas negras distintivas</p>
+            <h3>Ocupación y Afiliación</h3>
+            <p>Rumrunner y violinista en la tripulación de Lackadaisy Speakeasy, integrante de la banda de Zib</p>
+            <h3>Antecedentes y Biografía</h3>
+            <ul>
+              <li>Nacido en St.Louis y criado por parte con su madre hasta enfermarse; luego vivió con su tía Nina y su primo Calvin “Freckle” McMurray.</li>
+              <li>A los 16 años fue expulsado de la casa de los McMurray, viajó, trabajó en un circo y finalmente fue reclutado por Mitzi para unirse a la banda de Zib en Lackadaisy (en 1925).</li>
+              <li>Se convirtió en rumrunner tras la muerte de Atlas, colaborando a menudo con su primo Freckle e Ivy Pepper en misiones de contrabando de alcohol.</li>
+              <li>En una de estas misiones, sufrió un grave golpe en la cabeza al ser atropellado por un coche fúnebre; su frente fue suturada y presentó cicatrices visibles luego del accidente.</li>
+            </ul>
+            <h3>Personalidad y Rasgos</h3>
+            <ul>
+              <li>Carismático, imprudente, extrovertido, con humor espontáneo y a veces inapropiado.</li>
+              <li>Muy talentoso con el violín; combina su música con poesía improvisada.</li>
+              <li>Aunque parece inmaduro, es inteligente; actúa para agradar y no sentirse reemplazado ante Mitzi y la banda.</li>
+              <li>Su temperamento caótico genera tensiones, pero también muestra lealtad y preocupación por sus amigos.</li>
+            </ul>
+            <h3>Relaciones Clave</h3>
+            <ul>
+              <li><strong>Calvin “Freckle” McMurray:</strong> Primo cercano, aunque Rocky lo involucra a veces sin su consentimiento. Existe gran lealtad mutua.</li>
+              <li><strong>Mitzi May:</strong> Jefa de speakeasy y figura maternal. Rocky siente una necesidad casi obsesiva de complacerla.</li>
+              <li><strong>Viktor Vasko:</strong> Su mentor rumrunner, quien a veces ve a Rocky como una amenaza pero también como aliado útil.</li>
+              <li><strong>Ivy Pepper, Zibowski y otros miembros de Lackadaisy:</strong> Compañeros de alto riesgo en las misiones — Rocky los irrita y protege al mismo tiempo.</li>
+            </ul>
+            <h3>Otros Detalles</h3>
+            <ul>
+              <li>Duerme en el coche de Lackadaisy; no tiene un hogar fijo.</li>
+              <li>Comida favorita: panqueques con sirope de arce.</li>
+              <li>Tiene una cicatriz visible en la frente y un agujero en la oreja producto de un incidente anterior. (<a href="https://static.wikia.nocookie.net/villains/images/c/c8/Rocky_Scarred.jpg/revision/latest?cb=20230930173427" target="_blank">Ver imagen</a>)</li>
+              <li>No fuma, aunque ya ha consumido alcohol en el pasado.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="modal2" tabindex="-1">
+  <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-body p-4">
+    <div class="row align-items-center">
+      <div class="col-md-5"><img src="img/7carta.png" class="img-fluid rounded" alt="Nico"></div>
+      <div class="col-md-7">
+        <h2>Nicodeme “Nico” Savoy</h2>
+        <p><strong>Alias:</strong> “The Cajun Gator”</p>
+        <p><strong>Nacionalidad:</strong> Estadounidense (de ascendencia cajún/criolla)</p>
+        <p><strong>Fecha de nacimiento:</strong> Julio 23-31 de 1900 - Nueva Orleans</p>
+        <p><strong>Edad (1927):</strong> 26 años</p>
+        <p><strong>Altura:</strong> Aprox. 1,90m (6’3″)</p>
+        <p><strong>Ojos:</strong> Marrón</p>
+        <p><strong>Pelo/Pelaje:</strong> Blanco con acentos grises</p>
+        <h3>Afiliación</h3>
+        <p>Marigold Gang - hijacker / músculo</p>
+        <h3>Biografía</h3>
+        <ul>
+          <li>Nació en Nueva Orleans entre el 23 y 31 de julio de 1900; vivió con su hermana Serafine en un hogar tipo orfanato, escaparon juntas y se adentraron en bayous hasta hallar a Maman Eulalie y volverse adeptos del culto vodooienne.</li>
+          <li>Trabaja como hijacker para la pandilla Marigold junto a Serafine y Mordecai.</li>
+        </ul>
+        <h3>Personalidad</h3>
+        <ul>
+          <li>Impulsivo, carismático, disfruta la violencia.</li>
+          <li>Le encanta la comida cajún — jambalaya, gumbo, lo prefiere extremadamente picante; bebe bourbon y spiced rum; detesta usar zapatos.</li>
+        </ul>
+      </div>
+    </div>
+  </div></div></div>
+</div>
+
+<div class="modal fade" id="modal3" tabindex="-1">
+  <div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-body p-4">
+    <div class="row align-items-center">
+      <div class="col-md-5"><img src="img/3carta.png" class="img-fluid rounded" alt="Freckle"></div>
+      <div class="col-md-7">
+        <h2>Calvin “Freckle” McMurray</h2>
+        <p><strong>Alias:</strong> Freckle</p>
+        <p><strong>Nacionalidad:</strong> Estadounidense</p>
+        <p><strong>Edad (1927):</strong> Aproximadamente late teens</p>
+        <p><strong>Ojos:</strong> Grandes y expresivos</p>
+        <p><strong>Pelo/Pelaje:</strong> Pelaje rojizo/anaranjado</p>
+        <h3>Afiliación</h3>
+        <p>Lackadaisy - primo y acompañante de Rocky, participa en contrabando</p>
+        <h3>Biografía</h3>
+        <ul>
+          <li>Primo de Rocky, criado en St.Louis; expulsado de la academia policial, nervioso y tímido, pero muestra un lado violento cuando está bajo presión.</li>
+          <li>Leal a Rocky, participa en misiones de contrabando junto a él e Ivy.</li>
+        </ul>
+        <h3>Personalidad</h3>
+        <ul>
+          <li>Timido y reservado, pero extremadamente peligroso cuando se desata.</li>
+          <li>Tiene temperamento berserker con armas; un joven decente atrapado en caos.</li>
+        </ul>
+      </div>
+    </div>
+  </div></div></div>
+</div>
+
+<div class="modal fade" id="modal4" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-4">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <img src="img/4carta.png" alt="Mordecai Heller" class="img-fluid rounded">
+          </div>
+          <div class="col-md-7">
+            <h2>Mordecai Heller</h2>
+            <p><strong>Alias:</strong> Mordecai</p>
+            <p><strong>Nacionalidad:</strong> Estadounidense</p>
+            <p><strong>Edad (1927):</strong> 30 años</p>
+            <p><strong>Altura:</strong> 1,80m</p>
+            <p><strong>Ojos:</strong> Amarillo dorado</p>
+            <p><strong>Pelo/Pelaje:</strong> Negro y gris</p>
+            
+            <h3>Afiliación</h3>
+            <p>Marigold Gang - Asesino a sueldo y estratega</p>
+            
+            <h3>Antecedentes</h3>
+            <ul>
+              <li>Antiguo miembro de Lackadaisy antes de unirse a Asa Sweet.</li>
+              <li>Experto en armas de fuego y en planificación táctica.</li>
+              <li>Reconocido por su precisión milimétrica y control emocional.</li>
+            </ul>
+            
+            <h3>Personalidad</h3>
+            <ul>
+              <li>Meticuloso, frío y calculador.</li>
+              <li>Perfeccionista hasta el extremo.</li>
+              <li>Detesta la improvisación y el desorden.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="modal5" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-4">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <img src="img/5carta.png" alt="Ivy Pepper" class="img-fluid rounded">
+          </div>
+          <div class="col-md-7">
+            <h2>Ivy Pepper</h2>
+            <p><strong>Alias:</strong> Ivy</p>
+            <p><strong>Nacionalidad:</strong> Estadounidense</p>
+            <p><strong>Edad (1927):</strong> 18 años</p>
+            <p><strong>Altura:</strong> 1,65m</p>
+            <p><strong>Ojos:</strong> Verdes</p>
+            <p><strong>Pelo/Pelaje:</strong> Rubio</p>
+            
+            <h3>Afiliación</h3>
+            <p>Lackadaisy - Mensajera y asistente de Mitzi May</p>
+            
+            <h3>Antecedentes</h3>
+            <ul>
+              <li>Sobrina de Viktor Vasko, quien la protege pero también se preocupa por sus imprudencias.</li>
+              <li>Se unió a Lackadaisy para ayudar en misiones de contrabando.</li>
+              <li>Participa frecuentemente junto a Rocky y Freckle.</li>
+            </ul>
+            
+            <h3>Personalidad</h3>
+            <ul>
+              <li>Energética, sociable y optimista.</li>
+              <li>Coqueta y atrevida, pero leal a sus amigos.</li>
+              <li>No teme correr riesgos para proteger a los suyos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal6" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-4">
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <img src="img/6carta.png" alt="Serafine Savoy" class="img-fluid rounded">
+          </div>
+          <div class="col-md-7">
+            <h2>Serafine Savoy</h2>
+            <p><strong>Alias:</strong> Serafine</p>
+            <p><strong>Nacionalidad:</strong> Estadounidense (ascendencia cajún/criolla)</p>
+            <p><strong>Edad (1927):</strong> 24 años</p>
+            <p><strong>Altura:</strong> 1,70m</p>
+            <p><strong>Ojos:</strong> Marrones</p>
+            <p><strong>Pelo/Pelaje:</strong> Blanco con acentos grises</p>
+            
+            <h3>Afiliación</h3>
+            <p>Marigold Gang - Bruja y asesina</p>
+            
+            <h3>Antecedentes</h3>
+            <ul>
+              <li>Hermana de Nico Savoy, escaparon juntas del orfanato.</li>
+              <li>Aprendió artes de vudú con Maman Eulalie en los pantanos de Luisiana.</li>
+              <li>Usa rituales y supersticiones como parte de su intimidación.</li>
+            </ul>
+            
+            <h3>Personalidad</h3>
+            <ul>
+              <li>Carismática, misteriosa y peligrosa.</li>
+              <li>Altamente supersticiosa y hábil en manipular a otros.</li>
+              <li>Extremadamente unida a su hermano Nico.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!-- EQUIPO -->
+<section id="team" class="mt-5">
+  
+  <div id="cocodrilo-container" class="d-flex justify-content-center mb-4"></div>
+
+  <div class="container">
+    <div class="row justify-content-start align-items-center g-4">
+  
+
+      <div class="col-md-6">
+        <div class="bg-black rounded-4 shadow p-4 h-100">
+
+          <h2 class="titulo-marigold mb-4">
+  <span class="subtitulo">La pandilla</span><br>
+  <span class="principal">Marigold</span>
+</h2>
+          <p class="text-white mb-3">
+            La pandilla Marigold es un sindicato criminal con sede en San Luis, Misuri, que dirige y opera tanto el Salón Marigold como el Hotel Maribel.
+            Son los principales rivales y competidores de la banda Lackadaisy en el negocio de los bares clandestinos.
+            Son los principales antagonistas de la serie, los personajes dentro de este equipo son:
+          </p>
+          <ul class="text-white text-center list-unstyled">
+            <li>Serafine Savoy, Nico Savoy, Mordecai Heller, Asa Sweet</li>
+          </ul>
+          <p class="text-white mb-0">
+            Otro miembro notable es Asa Sweet, su líder ex amigo de Atlas y miembro de alto rango de la pandilla Marigold, quien opera la Sala Marigold y trabaja como gerente nocturno en el Hotel Maribel.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</section>
+
+
+
+<!-- EQUIPO2 -->
+<section id="teamdos" class="mt-5">
+<div class="container">
+    <div class="row justify-content-start align-items-center g-4">
+  
+
+      <div class="col-md-6">
+        <div class="bg-transparent rounded-4 shadow p-4 h-100">
+
+          <h2 class="titulo-marigold mb-4">
+  <span class="subtitulo">Equipo</span><br>
+  <span class="principal">Lackadaisy</span>
+</h2>
+<p class="text-white mb-3">
+            La tripulación Lackadaisy es un sindicato criminal con sede en St. Louis, Missouri, que dirige y opera tanto el Little Daisy Café como su homónimo Lackadaisy Speakeasy , 
+            y son los protagonistas de la serie. los personajes dentro de este equipo son:
+          </p>
+          <ul class="text-white text-center list-unstyled">
+            <li>Rocky Rickaby, Calvin (Freckle) McMurray, Ivy Pepper, Mitzy May, Víctor Vasko, Dorian "Zib" Zibowski</li>
+          </ul>
+          <p class="text-white mb-0">
+            Atlas May era el propietario y operador del Little Daisy Café en San Luis.En 1920, fundó el bar clandestino Lackadaisy 
+            en unas cuevas de piedra caliza ubicadas bajo el Little Daisy Café. El bar clandestino fue un éxito, 
+            pero en 1926 Atlas fue asesinado violentamente, aunque se desconocen las circunstancias exactas.La herencia de Lackadaisy por 
+            parte de la viuda de Atlas, Mitzi , y el posterior declive del bar clandestino conforman el contexto del cómic.
+          </p>
+        </div>
+      </div>
+    </div>
+</div>
+  </section>
+
+<!-- ✅ FORMULARIO CON BOOTSTRAP Y EMAILJS FUNCIONAL -->
+<section id="contacto" class="container mt-5 mb-5">
+  <h2 class="text-center mb-4">Contáctanos</h2>
+  <form id="contactForm">
+    <div class="text-white mb-3">
+    <label for="nombre" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="nombre" name="de_nombre" required>
+  </div>
+  
+  <div class="text-white mb-3">
+    <label for="correo" class="form-label">Correo electrónico</label>
+    <input type="email" class="form-control" id="correo" name="correo_electronico" required>
+  </div>
+  
+  <div class="text-white mb-3">
+    <label for="mensaje" class="form-label">Mensaje</label>
+    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+  </div>
+    
+    <button type="submit" class="btn btn-success">
+      <span id="submitText">Enviar</span>
+      <span id="submitSpinner" class="spinner-border spinner-border-sm d-none" role="status"></span>
+    </button>
+    
+    <!-- Alertas de Bootstrap -->
+    <div id="alertSuccess" class="alert alert-success mt-3 d-none">
+      <i class="bi bi-check-circle-fill"></i> Mensaje enviado con éxito!
+    </div>
+    <div id="alertError" class="alert alert-danger mt-3 d-none">
+      <i class="bi bi-exclamation-triangle-fill"></i> <span id="errorText">Error al enviar el mensaje</span>
+    </div>
+  </form>
+</section>
+
+<!-- EmailJS + Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  // Inicialización
+  emailjs.init('1hprQX0gpPXaApAcb').then(() => {
+    console.log('EmailJS inicializado correctamente');
+  });
+
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Mostrar estado de carga
+    const btn = e.target.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    document.getElementById('submitText').classList.add('d-none');
+    document.getElementById('submitSpinner').classList.remove('d-none');
+    
+    // Ocultar alertas previas
+    document.getElementById('alertSuccess').classList.add('d-none');
+    document.getElementById('alertError').classList.add('d-none');
+
+    // Preparar datos (usando los nombres que funcionaron en la prueba)
+    const params = {
+      de_nombre: this.de_nombre.value,
+      correo_electronico: this.correo_electronico.value,
+      mensaje: this.mensaje.value,
+      responder_a: this.correo_electronico.value // Opcional, si tu plantilla lo requiere
+    };
+
+    // Envío con los parámetros correctos
+    emailjs.send('service_i2f2c7q', 'template_4h6tlxd', params)
+      .then(() => {
+        document.getElementById('alertSuccess').classList.remove('d-none');
+        this.reset();
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+        document.getElementById('errorText').textContent = 
+          'Error: ' + (error.text || 'Por favor intenta nuevamente');
+        document.getElementById('alertError').classList.remove('d-none');
+      })
+      .finally(() => {
+        btn.disabled = false;
+        document.getElementById('submitText').classList.remove('d-none');
+        document.getElementById('submitSpinner').classList.add('d-none');
+      });
+  });
+</script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+function actualizarFondoTeam() {
+  if (window.location.hash === '#team') {
+    document.body.classList.add('team-active');
+  } else {
+    document.body.classList.remove('team-active');
+  }
+}
+window.addEventListener('hashchange', actualizarFondoTeam);
+window.addEventListener('DOMContentLoaded', actualizarFondoTeam);
+</script>
+
+<script>
+function actualizarFondoInfo() {
+  if (window.location.hash === '#informacion') {
+    document.body.classList.add('info-active');
+  } else {
+    document.body.classList.remove('info-active');
+  }
+}
+window.addEventListener('hashchange', actualizarFondoInfo);
+window.addEventListener('DOMContentLoaded', actualizarFondoInfo);
+</script>
+
+<script>
+function actualizarFondoTeamdos() {
+  if (window.location.hash === '#teamdos') {
+    document.body.classList.add('teamdos-active');
+  } else {
+    document.body.classList.remove('teamdos-active');
+  }
+}
+window.addEventListener('hashchange', actualizarFondoTeamdos);
+window.addEventListener('DOMContentLoaded', actualizarFondoTeamdos);
+</script>
+
+<script>
+document.body.addEventListener('click', function(e) {
+  const balazo = document.createElement('img');
+  balazo.src = 'img/balazo.png';
+  balazo.className = 'balazo';
+  balazo.style.position = 'absolute';
+  balazo.style.left = (e.pageX - 20) + 'px';
+  balazo.style.top = (e.pageY - 20) + 'px';
+  balazo.style.width = '40px';
+  balazo.style.height = '40px';
+  balazo.style.pointerEvents = 'none';
+  balazo.style.zIndex = 9999;
+  document.body.appendChild(balazo);
+
+  setTimeout(() => {
+    balazo.remove();
+  }, 1000);
+  });
+</script>
+
+<script>
+const navbar = document.querySelector('.navbar');
+let isMobileMenuOpen = false;
+
+// Detecta cuando el menú hamburguesa se abre/cierra
+document.querySelector('.navbar-toggler').addEventListener('click', function() {
+  isMobileMenuOpen = !isMobileMenuOpen;
+});
+
+// Función para saber si estamos en el inicio
+function enInicio() {
+  return window.location.hash === '' || window.location.hash === '#inicio';
+}
+
+// Controlar la visibilidad de la navbar
+function controlarNavbar() {
+  // Si el menú móvil está abierto, siempre mostrar la navbar
+  if (isMobileMenuOpen) {
+    navbar.style.transform = 'translateY(0)';
+    return;
+  }
+  
+  if (enInicio()) {
+    navbar.style.transform = 'translateY(0)';
+  } else {
+    navbar.style.transform = 'translateY(-100%)';
+  }
+}
+
+
+controlarNavbar();
+
+// Evento para mostrar navbar al mover mouse cerca del borde superior
+document.addEventListener('mousemove', function(e) {
+  if ('ontouchstart' in window) return;
+  
+  if (enInicio()) {
+    navbar.style.transform = 'translateY(0)';
+  } else {
+    if (e.clientY < 60) {
+      navbar.style.transform = 'translateY(0)';
+    } else {
+
+      if (!isMobileMenuOpen) {
+        navbar.style.transform = 'translateY(-100%)';
+      }
+    }
+  }
+});
+
+// Resetear estado cuando se cambia de vista
+window.addEventListener('hashchange', function() {
+  isMobileMenuOpen = false;
+  controlarNavbar();
+});
+
+// Cerrar menú  clic 
+document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+  link.addEventListener('click', () => {
+    if (window.innerWidth <= 992) { 
+      isMobileMenuOpen = false;
+      
+      const toggler = document.querySelector('.navbar-toggler');
+      if (!toggler.classList.contains('collapsed')) {
+        toggler.click();
+      }
+    }
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+  background: linear-gradient(180deg, #2d69e3 50%, #000000 85%);
+  cursor: url('img/mordecaicursor.png'), auto;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+body.info-active {
+  background: url('img/fondoinfo.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+body.team-active {
+  background: url('img/fondomarig.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.teamdos-active {
+  background: url('img/fondoteamlack.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.titulo-marigold {
+  text-align: left;
+  line-height: 1;
+}
+
+.titulo-marigold .subtitulo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  color: white;
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.titulo-marigold .principal {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: yellow;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+
+
+button,
+.btn,
+input[type="submit"],
+input[type="button"],
+a,
+.nav-link,
+.carousel-control-prev,
+.carousel-control-next,
+.form-control:focus {
+  cursor: url('img/piu.png') 0 0, pointer !important;
+}
+
+
+.carousel-item img {
+  width: 100%;
+  height: auto; 
+  max-height: 100vh;
+  background-color: #2d69e3;
+}
+
+#galeria {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+#informacion {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#team {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#teamdos {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cocodrilo-container {
+  flex: 1; 
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#cocodrilo-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  display: block;
+}
+
+
+.card-title {
+  color: #6c3483;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.custom-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.custom-card img {
+  width: 100%;
+  height: 250px; 
+  border-radius: 15px;
+  object-fit: cover; 
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+.btn-primary {
+  background-color: rgb(0, 203, 221);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #512e5f;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(1px 1px 2px #333);
+}
+
+.navbar {
+  background-color: #2d69e3 !important;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 3000;
+  transition: transform 0.4s;
+}
+
+.carousel-inner {
+  overflow: visible !important;
+}
+
+
+#contacto {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
